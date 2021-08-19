@@ -4,9 +4,9 @@ function saturdayFun(message = "roller-skate") {
 function mondayWork(quote = "go to the office") {
     return (`This Monday, I will ${quote}.`);
 }
-function wrapAdjective(){
-   const fn = function
-        fn(name){
-        return (`Your are ${name}`)
-        }
+
+const wrapAdjective = function(flair = "*"){
+    return function(word = "special"){
+       return (`You are ${flair}${word}${flair}!`)
+    }
 }
