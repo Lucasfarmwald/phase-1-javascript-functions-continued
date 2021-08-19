@@ -5,7 +5,8 @@ function mondayWork(quote = "go to the office") {
     return (`This Monday, I will ${quote}.`);
 }
 function wrapAdjective(){
-    function inner(name = "special"){
-        return (`${name}`)
-    }
+   const fn = function
+        fn(name){
+        return (`Your are ${name}`)
+        }
 }
